@@ -39,7 +39,7 @@ This Python script filters bookmarks exported from Firefox and creates a new HTM
 ### **Example**
 **Extract bookmarks from a folder named "Projects":**
 ```bash
-python filter_firefox_bookmarks.py bookmarks.html "Projects"
+python filter_firefox_bookmarks.py bookmarks.json "Projects"
 ```
 **Output:**
 `Projects_bookmarks.html` will contain all bookmarks under "Projects."
